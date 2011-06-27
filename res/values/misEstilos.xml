@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="titulo" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#004D3A</item>
+        <item name="android:shadowColor">#89D30A</item>
+        <item name="android:shadowRadius">2.5</item>
+        <item name="android:shadowDx">1.2</item>
+        <item name="android:shadowDy">1.2</item>
+        <item name="android:textSize">21dp</item>
+    </style>
+    
+    <style name="textoLista" parent="@android:style/TextAppearance.Medium">
+    <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#004D3A</item>
+        <item name="android:shadowColor">#89D30B</item>
+        <item name="android:shadowRadius">1.1</item>
+        <item name="android:shadowDx">1.05</item>
+        <item name="android:shadowDy">1.05</item>
+   
+    </style>
+    
+    <style name="textoTab" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#00FF00</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+    
+    <style name="textoList" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#004D3A</item>
+        <item name="android:textSize">13dp</item>
+    </style>
+    
+   
+    
+</resources>

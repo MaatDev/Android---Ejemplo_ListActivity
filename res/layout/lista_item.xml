@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  >
+  <ImageView
+  	  android:id="@+id/image"
+	  android:layout_width="80dip"
+	  android:layout_height="80dip" android:src="@drawable/icon" android:scaleType="centerCrop"/>
+  <TextView
+  	  android:id="@+id/text"
+  	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:layout_weight="1" 
+	  android:layout_gravity="center" 
+	  android:textSize="25dip"
+	  android:layout_toRightOf="@id/image"
+	  style="@style/textoLista" 
+	  android:layout_marginLeft="10dip"/>
+  <RatingBar 
+  android:layout_height="wrap_content" 
+  android:layout_alignParentBottom="true" 
+  android:layout_width="wrap_content"
+  android:layout_below="@id/text"
+  style="?android:attr/ratingBarStyleSmall"
+  android:numStars="5"
+  android:rating="3"
+  android:layout_toRightOf="@id/image"
+   
+  android:id="@+id/ratingBar1"/>
+</RelativeLayout>
